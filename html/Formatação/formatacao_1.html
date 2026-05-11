@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF 8">
+        <meta name="author" content="Gabriel Kurt">
+        <meta name="description" content="Testando minhas abilidades em formatação de texto">
+        <meta name="keywords" content="Formatação, Web, Links">
+        <title>Formatação numero 1</title>
+        <style>
+            body{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+                background-color: #f7f5f0;
+                line-height: 1.8;
+            }
+            .caixa{
+                background-color: #fff;
+                margin: 0 auto;
+                max-width: 750px;
+                padding: 40px 20px;
+            }
+            h1{
+                font-size: 39px;
+                padding: 10px 10px 0px 10px; 
+            }
+            h2{
+               font-size: 24px;
+               border-left: 4px solid #57ae4b;
+               text-align: left;
+               padding: 8px;
+               margin: 2px auto 5px auto;
+            }
+            p{
+                text-align: justify;
+                font-size: 18px;
+            }
+            a{
+               color: #006400;
+                text-decoration:underline dotted;
+            }
+            a:hover{
+                text-decoration: underline solid;
+                background-color: #e8f5e9 ;
+            }
+            ul li{
+                text-align: left;
+                padding: 5px;
+                font-size: 15px;
+            }
+            .subtitulo{
+                text-align: center;
+                color: #888888 ;
+                border-bottom: 2px solid #eeeeee;
+                padding: 0px 15px 15px;
+                margin-bottom: 45px;
+                font-size: 16px;
+            } 
+            .ditado{
+                background-color: #f9f9f9;
+                border-left: 3px solid #cccccc;
+                padding: 30px;
+                margin-top: 40px;
+                margin-bottom: 45px;
+                font-size: 20px;
+                color: #555555;
+                font-style: oblique;
+            }
+            .legendaimagem{
+                font-family: Georgia, Times, serif;
+                font-style: italic;
+                text-align: center;
+                font-size: 15px;
+                color: #666666;
+            }
+            img{
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
+            }         
+        </style>
+    </head>
+    <body>
+        <div class="caixa">
+        <h1>Explorando a Formatação Web</h1>
+
+        <p class="subtitulo">Um guia visual de longo formato para praticar a tag P, imagens e tipografia.</p>
+
+        <p>A web não é feita apenas de sistemas complexos e animações mirabolantes. Grande parte da internet, como blogs, portais de notícias e wikis, existe apenas para <b>entregar informações de forma legível</b>. Para isso, dominar a formatação de texto é essencial.</p>
+
+        <img src="https://picsum.photos/800/400?random=1" alt="Imagem aleatoria 1" title="Imagem random">
+        <p class="legendaimagem">Exemplo de imagem fluida. Ela sempre terá 100% da largura da coluna.</p>
+
+        <h2>Lidando com Links Embutidos</h2>
+        
+        <p>Ao ler um artigo longo, você frequentemente encontrará referências externas. Se quiser ver como o CSS de link está configurado, tente clicar neste link para a <a href="https://pt.wikipedia.org/wiki/Tipografia" target="_blank">Página sobre Tipografia na Wikipédia</a>. Note que ele não é um botão enorme, mas sim parte fluida da frase. Ele obedece a regra de trocar de cor no hover e tem um sublinhado pontilhado.</p>
+
+        <p class="ditado">"O design é o intermediário entre a informação e a compreensão."<br>
+        — Hans Hofmann</p>
+
+        <h2>Elementos de Lista para Organização</h2>
+
+        <p>Textos longos podem ser cansativos se não forem quebrados. Listas ajudam muito nisso. O que você pode treinar alterando este código:</p>
+
+        <ul>
+            <li>Mudar o line-height no <b>body</b> para ver como as linhas ficam mais espremidas ou distantes.</li>
+            <li>Mudar o max-width da classe <b>.artigo-container</b> de 750px para 1000px ou 500px para ver a coluna encolhendo.</li>
+            <li>Trocar a font-family do <b>body</b> de 'Georgia' para 'Verdana' ou 'Tahoma'.</li>
+            <li>Brincar com a espessura da linha da esquerda no bloco de citação (blockquote).</li>
+        </ul>
+
+        <h2>Galeria de Leitura</h2>
+
+        <p>Você pode inserir quantas imagens quiser. Abaixo, adicionei mais duas imagens seguidas para simular uma pequena galeria visual que interrompe a leitura do artigo de forma proposital para dar descanso aos olhos do leitor.</p>
+
+        <img src="https://picsum.photos/800/400?random=2" alt="Imagem aleatoria 2">
+        <img src="https://picsum.photos/800/400?random=3" alt="Imagem aleatoria 3">
+        <p class="legendaimagem">As margens das imagens garantem que elas não fiquem coladas umas nas outras.</p>
+
+        <p>Este layout é o feijão com arroz da internet. Entender como estilizar cabeçalhos (H1, H2), espaçamentos de parágrafos (P) e comportamentos de imagem (IMG) é a melhor fundação que você pode ter ao aprender HTML e CSS.</p>
+        </div>
+    </body>
+</html>

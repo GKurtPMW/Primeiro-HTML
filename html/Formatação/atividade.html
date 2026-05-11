@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino de Formatação - Estilo Editorial</title>
+    
+    <style>
+        /* 1. RESET E CONFIGURAÇÕES DE PÁGINA (Estilo Papel Creme) */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* Usando fontes clássicas de livros para o texto */
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background-color: #fcfbf8; /* Cor de folha de livro antigo bem suave */
+            color: #2b2b2b; /* Quase preto, mais suave para os olhos */
+            padding: 60px 20px;
+        }
+
+        /* 2. A COLUNA CENTRAL (O seu layout favorito) */
+        main {
+            max-width: 800px; /* Um pouco mais largo para caber mais texto */
+            margin: 0 auto;
+        }
+
+        /* 3. CABEÇALHOS (Contraste com fontes sem serifa) */
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            border-bottom: 1px solid #dcdcdc;
+            padding-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 52px;
+            font-weight: normal;
+            color: #111;
+            margin-bottom: 15px;
+            line-height: 1.1;
+        }
+
+        .subtitulo {
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            color: #777;
+            text-transform: uppercase; /* Deixa tudo em MAIÚSCULO */
+            letter-spacing: 2px; /* Afasta as letras para dar elegância */
+        }
+
+        /* Os títulos do meio do texto */
+        h2 {
+            font-family: 'Arial', sans-serif;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 60px;
+            margin-bottom: 20px;
+            color: #8b0000; /* Vermelho Vinho / Bordô */
+        }
+
+        /* 4. O CORPO DO TEXTO E A LETRA CAPITULAR */
+        p {
+            font-size: 21px; /* Fonte bem grande e confortável */
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+
+        /* TRUQUE DE REVISTA: A primeira letra do primeiro parágrafo fica gigante */
+        .texto-principal::first-letter {
+            font-size: 80px;
+            float: left; /* Faz o texto contornar a letra */
+            line-height: 0.8;
+            padding-right: 8px;
+            padding-top: 4px;
+            color: #8b0000; /* Cor de vinho */
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* 5. CITAÇÃO ELEGANTE */
+        blockquote {
+            font-size: 32px;
+            line-height: 1.4;
+            text-align: center;
+            font-style: italic;
+            color: #555;
+            margin: 60px 0;
+            padding: 0 40px;
+        }
+
+        blockquote::before {
+            content: "“";
+            font-size: 80px;
+            color: #e0e0e0;
+            display: block;
+            line-height: 0;
+            margin-bottom: 20px;
+        }
+
+        /* 6. IMAGENS DE ALTA QUALIDADE */
+        figure {
+            margin: 50px 0;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            filter: grayscale(20%); /* Tira um pouco a cor para ficar mais "sério" */
+        }
+
+        figcaption {
+            text-align: right;
+            font-size: 14px;
+            font-family: 'Arial', sans-serif;
+            color: #888;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        /* 7. LINKS DE TEXTO (Com sublinhado diferente) */
+        a:link {
+            color: #8b0000;
+            text-decoration: underline;
+            text-decoration-style: wavy; /* O sublinhado fica em formato de ondinha! */
+            text-underline-offset: 4px;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        a:visited {
+            color: #4a0000; /* Vinho muito escuro */
+        }
+
+        a:hover {
+            color: #ffffff;
+            background-color: #8b0000;
+            text-decoration: none; /* Tira a ondinha ao passar o mouse */
+            padding: 0 4px; /* Dá um espacinho para o fundo colorido não espremer a letra */
+        }
+
+        a:active {
+            background-color: #111;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>O Renascimento da Tipografia Digital</h1>
+            <p class="subtitulo">Por que ler na tela nunca foi tão confortável</p>
+        </header>
+
+        <p class="texto-principal">Durante décadas, a leitura em telas de computador foi considerada cansativa e prejudicial aos olhos. Os monitores tinham baixa resolução e as fontes disponíveis eram rígidas, limitadas a estilos como Arial, Times e Comic Sans. No entanto, o design editorial na web passou por uma revolução silenciosa nos últimos anos.</p>
+
+        <p>A chegada de monitores de alta definição (como as telas Retina) permitiu que as curvas das letras fossem renderizadas com a mesma precisão da tinta no papel impresso. Hoje, não estamos apenas construindo sites; estamos diagramando páginas digitais.</p>
+
+        <figure>
+            <img src="https://images.unsplash.com/photo-1455390582262-044cdead27d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Máquina de escrever antiga">
+            <figcaption>As raízes do design web estão na velha prensa de papel.</figcaption>
+        </figure>
+
+        <h2>O Retorno da Serifa</h2>
+
+        <p>No início da internet, os designers fugiam das fontes com serifa (aquelas com detalhes nas pontas das letras) porque os monitores antigos as deixavam embaçadas. O minimalismo tomou conta, e o mundo inteiro adotou letras retas. Mas a <a href="https://pt.wikipedia.org/wiki/Tipografia" target="_blank">tipografia clássica</a> está de volta e mais forte do que nunca.</p>
+
+        <p>Fontes como Georgia, Merriweather e Playfair Display agora dominam os principais portais de jornalismo, trazendo elegância e autoridade para o texto. Elas guiam os olhos do leitor de forma muito mais natural através de longos parágrafos.</p>
+
+        <blockquote>
+            A tipografia é a voz visual da sua palavra. Ela pode gritar, sussurrar ou cantar, dependendo de como você a veste.
+        </blockquote>
+
+        <h2>O que observar neste código?</h2>
+
+        <p>Para você que está treinando formatação e CSS, este documento traz várias novidades sutis que os profissionais usam para dar aquele "toque de mestre":</p>
+
+        <p>
+            <strong>1. O pseudo-elemento <code>::first-letter</code>:</strong> É ele que cria a Letra Capitular no começo deste artigo. Brinque com o tamanho dele no CSS.<br><br>
+            <strong>2. Filtros em imagens:</strong> Se você olhar a tag <code>img</code> no CSS, verá que usei <code>filter: grayscale(20%);</code>. Isso tira 20% das cores da imagem automaticamente, deixando-a com um tom mais sóbrio e jornalístico.<br><br>
+            <strong>3. O Sublinhado Ondulado:</strong> Passe o mouse no link acima e veja como ele se comporta. O CSS <code>text-decoration-style: wavy;</code> é uma forma muito moderna de chamar a atenção para um link sem precisar transformá-lo num botão.
+        </p>
+
+        <h2>Próximos Passos</h2>
+
+        <p>A beleza deste layout sem caixas (apenas a tag <strong>&lt;main&gt;</strong> segurando tudo no meio) é que o texto se torna a atração principal. Quanto mais você dominar tamanhos de fonte, espaçamentos entre linhas e contrastes de cor, mais profissionais seus sites vão parecer.</p>
+
+    </main>
+
+</body>
+</html>

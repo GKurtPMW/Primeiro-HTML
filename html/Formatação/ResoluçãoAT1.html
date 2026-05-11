@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF 8">
+        <meta name="author" content="Gabriel">
+        <meta name="description" content="Gui do Iniciante em css">
+        <meta name="keywords" content="CSS, Links, Iniciante">
+        <title>Atividade 1</title>
+        <style>
+            body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #e0f2f1, #e8eaf6); 
+            display: flex;
+            justify-content: center;
+            padding: 40px 0;
+            color: #333333;
+            }
+            
+            #container {
+            width: 90%;
+            max-width: 800px; /* Mais largo para um visual mais moderno */
+            background-color: #ffffff;
+            padding: 50px;
+            border-radius: 20px; /* Bordas mais arredondadas */
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1); /* Sombra mais profunda */
+            text-align: center;
+            }
+            h1{
+                
+                color: #22786a;
+                border-bottom: #b2dfdb;
+                border-bottom-style:solid;
+                border-bottom-width: 3px;
+                padding-bottom: 10px;
+                font-size: 36px;
+            }
+            h2{
+                color: #f67113;
+                border-left: 5px solid #f67113;
+                text-align: left;
+                padding-left: 10px;
+                font-size: 26px;
+
+            }
+            p{
+                text-align: justify;
+            }
+            table th{
+                background-color: #009688 ;
+                color: white;
+                text-align: left;
+                padding: 15px;
+            }
+            table{
+                width: 100%;
+                border-collapse: collapse;
+            }
+            table td{
+                border-bottom: 1px solid #eeeeee ;
+                text-align: left;
+                padding: 10px;
+            }
+            .tabelado{
+                background-color: #f9f9f9 ;
+            }
+            img{
+                width: 250px;
+            }
+            .botao{
+                width: 90%;
+                max-width: 200px;
+                background-color: #009688;
+                padding: 15px;
+                text-align: center;
+                margin: auto;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="container">
+        <h1>CSS - O Guia do Iniciante</h1>
+        <h2>O que é CSS?</h2>
+
+        <p>CSS (Cascading Style Sheets, ou Folhas de Estilo em Cascata) é a linguagem usada para estilizar e dar aparência a um documento HTML. Enquanto o HTML define a estrutura e o conteúdo (o esqueleto), o CSS define as cores, fontes, layout e animações (a pele e as roupas).</p>
+
+        <p>Foi desenvolvido por Håkon Wium Lie em 1994, com Tim Berners-Lee também envolvido em sua adoção. A ideia era separar a apresentação da estrutura.</p>
+
+        <h2>Sintaxe Básica de CSS</h2>
+
+        <p>O seletor (`p`) diz qual elemento HTML estilizar. A propriedade (`color`) diz o que mudar. O valor (`red`) diz como mudar.</p>
+
+        <h2>Unidades de Medida CSS</h2>
+
+        <table>
+            <thead>
+            
+            </thead>
+                <tr><th>Unidade</th><th>Descrição</th><th>Exemplo</th></tr>
+            <tbody>
+                <tr>
+                    <td>px</td><td>Pixels: Uma unidade absoluta de tamanho fixo.</td><td>`font-size: 16px;`</td>
+                </tr>
+                <tr class="tabelado">
+                    <td>em</td><td>Relativa ao tamanho da fonte do elemento pai.</td><td>`padding: 1em;`</td>
+                </tr>
+                <tr>
+                    <td>%</td><td>Porcentagem: Relativa ao elemento contêiner.</td><td>`width: 50%;`</td>
+                </tr">
+                <tr class="tabelado">
+                    <td>vh/vw</td><td>Viewport Height/Width: Porcentagem da tela.</td><td>`height: 100vh;`</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Ferramentas Essenciais de CSS</h2>
+        <p>Essas ferramentas ajudam desenvolvedores a escrever, testar e depugar o CSS.</p>
+
+        <img src="https://kinsta.com/wp-content/uploads/2021/05/own-window.png" alt="Inspetor de Navegador" title="Inspetor de Navegador" >
+        <img src="https://cdn.sanity.io/images/599r6htc/regionalized/5ed88457ecb696e59b440e73afeb81d906f84685-2498x1542.png" alt="Paletas de Cores" title="Paletas de Cores">
+        <img src="https://s3-alpha.figma.com/hub/file/2283720672061328977/5b357ec4-6470-42a8-bb9e-114edc56f150-cover.png" alt="Grid Playgrounds" title="Grid Playgrounds">
+
+        <h2>Sua Atividade Prática de Links</h2>
+
+        <p>Interaja com os botões abaixo para ver as propriedades de link (LVHA) que você aprendeu. O visual é diferente do cartão de perfil anterior, mas a lógica é a mesma.</p>
+        </div>
+    </body>
+</html>
